@@ -409,6 +409,7 @@ export default function ProductFormPage() {
 
   return (
     <div className="grid h-full w-full grid-cols-1 gap-4 lg:grid-cols-12">
+      <p className="text-red-500">ssss</p>
       <div className="col-span-1 h-full w-full lg:col-span-7">
         <h1 className="title">{formData.ITEM_CODE === "(NEW)" ? "Create Product" : "Edit Product"}</h1>
         <form
